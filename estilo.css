@@ -1,0 +1,183 @@
+@charset "utf-08";
+
+/*Azul Oceano: #003366
+Laranja Pôr do Sol: #FF6600
+Verde Coqueiro: #009966
+Amarelo Areia: #FFCC00
+Vermelho Coral: #FF6666
+*/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	color: #f1dd8a;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO DO SITE */
+
+.header {
+	background: #009966;
+	padding-bottom: 10px;
+	position: fixed;
+	width: 100%;
+    height: 29%;
+	top: 0;
+    
+}
+
+.container {
+	margin: 0 12%;
+	
+}
+
+
+img.logoRoteiro{
+    width: 210px;
+    height: 150px;
+
+}
+
+h1 {
+	display: inline-block;
+	width: 23%;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: inline-block;
+	width: 70.5%;
+	text-align: right;
+    
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	display: inline;
+    
+}
+
+nav li {
+	display: inline;
+	margin: 0 16px;
+}
+
+nav li span {
+	color: #579fe8;
+}
+
+nav li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+    
+}
+
+nav li a:hover {
+	color: #FFCC00;
+}
+
+nav li.sub {
+	margin: 0;
+}
+
+h1 img {
+	width: 100%;
+	margin: 50px 0 0 0;
+}
+
+a.temp {
+	display: none;
+}
+
+/* CARROUSSEL */
+
+section.carroussel {
+	display: block;
+	width: 100%;
+	height: 380px;
+	background: url(imagens/carrosel.jpg);
+	background-size: 100%;
+	margin-top: 100px;
+	background-position: center center ;
+}
+
+/* APRESENTAÇÃO */
+
+section.apresenta {
+	padding: 30px 0 60px 0;
+}
+
+div.apr-bloco01 {
+	display: inline-block;
+	width: 54.5%;
+	font-size: 30px;
+	text-align: left;
+}
+
+div.apr-bloco01 h2 {
+	color: #003366;
+	text-align: left;
+	font-weight: 400;
+}
+
+div.apr-bloco01 h2 span {
+	color: #FFCC00;
+	margin-bottom: 30px;
+	display: block;
+}
+
+div.apr-bloco01 p {
+	color: #444;
+	text-align: justify;
+	font-size: 18px;
+	width: 86%;
+	margin-bottom: 40px;
+}
+
+button.saiba {
+	background: #009966;
+	color: #FFCC00;
+	border: 0;
+	font-size: 16px;
+	padding: 7px 12px;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+div.apr-bloco02 {
+	display: inline-block;
+	width: 44.5%;
+	text-align: right;
+}
+
+div.apr-bloco02 figure {
+	margin: 0;
+	padding: 0;
+}
+
+div.apr-bloco02 img {
+	width: 90%;
+	box-shadow: 10px 10px 20px #444;
+}
+
+/* CARDS */
+
+section.cards {
+	background: #043465;
+	padding-top: 50px;
+}
+
+section.cards div.container div {
+	display: inline-block;
+	width: 22%;
+	border: solid 1px #579fe8;
+	margin: 0 0.8%;
+}
+
+section.cards div.container div img {
+	margin-top: 10px;
+	width: 80%;
+}
