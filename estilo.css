@@ -164,20 +164,57 @@ div.apr-bloco02 img {
 }
 
 /* CARDS */
+/*
 
-section.cards {
-	background: #043465;
-	padding-top: 50px;
-}
 
 section.cards div.container div {
 	display: inline-block;
-	width: 22%;
-	border: solid 1px #579fe8;
-	margin: 0 0.8%;
+	width: 40%;
+	height: 50%;
+	
+	
 }
 
+
+
+
 section.cards div.container div img {
-	margin-top: 10px;
-	width: 80%;
+	width: 50%;
+	height: 50%;
+	
 }
+*/
+
+section.cards {
+	background: #f3d86a;
+	
+}
+.container-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	max-width: 1000px; /* Define a largura máxima do contêiner dos cards */
+	margin: 0 auto; /* Centraliza o contêiner na página */
+	
+  }
+  
+  .container-card div {
+	flex: 0 0 calc(33.33% - 5px); /* Define a largura de cada card, com 5 pixels de espaçamento entre eles */
+	margin-bottom: 20px; /* Define o espaçamento entre as linhas de cards */
+	text-align: center;
+	
+  }
+  
+  .container-card img {
+	width: 100%;
+	
+  }
+
+
+  .container-card h1{
+	color: white;
+  } 
+
+
+ 
+  
