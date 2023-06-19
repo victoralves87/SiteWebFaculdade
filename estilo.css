@@ -21,7 +21,7 @@ body {
 	padding-bottom: 20px;
 	position: fixed;
 	width: 100%;
-    height: 29%;
+    height: 32%;
 	top: 0;
     
 }
@@ -206,6 +206,7 @@ section.cards {
 
 
 
+/*PAGINA HOSPEDAGEM*/
 
   body#hospedagem {
 	background: url(imagens/back_hosp.jpg) top center ;
@@ -249,4 +250,43 @@ section.cards {
 }
 
 
-  
+/*PAINA DE CONTATO*/
+
+main.tituloContato{
+	margin-top: 20%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+body#Contato{
+	background-color:#ff660086;
+}
+
+
+
+hr{
+    color: black;
+}
+
+
+fieldset{
+    width: 900px;
+    margin-top: 10px;
+    color:#003366;
+    padding: 10px;
+    
+}
+
+
+footer.footercontato{
+    width: 100%;
+	height: 50px;
+    text-align: center;           
+    background-color: rgba(0, 0, 0, 0.425);
+    color:rgb(255, 221, 30) ;
+}
+
+
+
+
