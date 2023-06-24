@@ -102,6 +102,7 @@ nav li.sub {
 	display: none;
 	position: absolute;
 	padding: 10px;
+	background-color: #009966;
   }
   
 .submenu:hover ul {
