@@ -82,6 +82,31 @@ nav li a:hover {
 nav li.sub {
 	margin: 0;
 }
+.submenu {
+	position: relative;
+  }
+  
+ .submenu ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 10px;
+  }
+  
+ .submenu:hover ul {
+	display: block;
+  }
+
+.submenu ul {
+	display: none;
+	position: absolute;
+	padding: 10px;
+  }
+  
+.submenu:hover ul {
+	display: block;
+  }
 
 h1 img {
 	width: 100%;
