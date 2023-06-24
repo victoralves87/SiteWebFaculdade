@@ -1,57 +1,94 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
-    <link rel="shortcut icon" href="imagens/logoRoteiro.png" type="image/x-icon">
-    <title>SiteFacul</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <link rel="shortcut icon" href="caminho-para-o-seu-icone.ico" type="image/x-icon">
+  <title>Receitas do Oba - Técnicas Gastronômicas</title>
+  <style>
+    /* Estilos para o conteúdo da página */
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 20px;
+      
+    }
+    .post {
+      margin-bottom: 30px;
+    }
+    .post-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .post-image {
+      max-width: 60%;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 30px;
+    }
+    .post-excerpt {
+      font-size: 16px;
+    }
+    .post-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #007bff;
+      text-decoration: none;
+    }
+    .post-link:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-      <header class="header">
-        <div class="container">
-          <a href="index.html">
-            <h1><img class="logoRoteiro" src="imagens/logoRoteiro.png" alt="Roteiro Nordestino"></h1>
-          </a>
-          <nav>
+  <header class="header">
+    <div class="container">
+      <a href="index.html">
+        <h1><img class="logoRoteiro" src="imagens/logoRoteiro.png" alt="Roteiro Nordestino"></h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li class="submenu">
+            <a href="hospedagem.html">Hospedagem ▼</a>
             <ul>
-              <li><a href="index.html">home</a></li>
-              <li><a href="sobre.html">Sobre</a></li>
-              <li class="submenu">
-                <a href="hospedagem.html">Hospedagem ▼</a>
-                <ul>
-                  <li><a href="gastronomia.html">Gastronomia</a></li>
-                  <!-- Adicione mais itens de submenu conforme necessário -->
-                </ul>
-              </li>
-              
-              <li><a href="contato.html">Contato</a></li>
+              <li><a href="gastronomia.html">Gastronomia</a></li>
+              <!-- Adicione mais itens de submenu conforme necessário -->
             </ul>
-          </nav>
-        </div>
-      </header>
-      <section class="carroussel"></section>
-      <section class="apresenta">
-        <div class="container">
-          <div class="apr-bloco01">
-            <h2>BEM VINDO AO<span>NOSSO SITE</span></h2>
-            <p> Bem-vindo ao nosso site de turismo da região Nordeste do Brasil! Aqui você encontrará um guia completo para explorar as maravilhas dessa região encantadora. Nosso site é o seu companheiro de viagem ideal para planejar uma aventura inesquecível pelo Nordeste. Navegue pelos destinos mais deslumbrantes, como Salvador, Recife, Fortaleza, Natal e muito mais.  Explore nossos roteiros de viagem cuidadosamente elaborados, que se adaptam a diferentes períodos de tempo.</p>
-            <div><button class="saiba">Saiba Mais</button></div>
-          </div>
-          <div class="apr-bloco02">
-            <figure>
-              <img src="imagens/imagem-home.jpg" alt="Boas-vindas">
-            </figure>
-          </div>
-        </div>
-      </section>
-      
-      <footer class="footercontato">
-        <p> &copy; Victor Alves</p>
-    </footer>
-    </main>
-  </body>
-  </html>
-  
-  
+          </li>
+          
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="post">
+      <h2 class="post-title">Nome da Receita</h2>
+      <img class="post-image" src="caminho-para-a-imagem-da-receita.jpg" alt="Imagem da Receita">
+      <p class="post-excerpt">Breve descrição da receita. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lacus in massa mollis, eget sagittis purus sagittis.</p>
+      <a class="post-link" href="caminho-para-a-pagina-da-receita.html">Ver Receita Completa</a>
+    </div>
+    <div class="post">
+      <h2 class="post-title">Bobó de camarão</h2>
+      <img class="post-image" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/01/bobo-de-camarao-comida-tipica-nordestina.jpg" alt="Imagem da Receita">
+      <p class="post-excerpt">Breve descrição da receita. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lacus in massa mollis, eget sagittis purus sagittis.</p>  
+    </div>
+    <div class="post">
+      <h2 class="post-title"> Bolo de rolo</h2>
+      <img class="post-image" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/01/doce-tipico-nordeste-bolo-de-rolo-pernambuco.jpg" alt="Imagem da Receita">
+      <p class="post-excerpt">Breve descrição da receita. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lacus in massa mollis, eget sagittis purus sagittis.</p>
+    </div>
+    <div class="post">
+      <h2 class="post-title">Baião de Dois</h2>
+      <img class="post-image" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/01/baiao-de-dois-tradicional-comida-nordeste.jpg" alt="Imagem da Receita">
+      <p class="post-excerpt">Breve descrição da receita. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque lacus in massa mollis, eget sagittis purus sagittis.</p>
+    </div>
+  </div>
+</body>
+</html>
